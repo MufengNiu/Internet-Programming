@@ -1,0 +1,47 @@
+/* This is the stylesheet used by the index page */
+.leftside, .rightside{
+    height: 100vh;
+    width: 100%;
+}
+
+.leftside{
+    float: left;
+    width: 60%;
+    height: 103vh;
+    background: #f5f3d0;;
+}
+
+.rightside{
+    float: right;
+    width: 40%;
+}
+
+.topright, .botright{
+    height: 100vh;
+    width: 100%;
+}
+
+.topright{
+    height: 40vh;
+}
+
+.botright{
+    height: 60vh;
+    background-color: #bcf7f3;
+}
+
+.subimg{
+    width: 100%;
+    position: relative;
+    top: -8px;
+}
+
+#defaultimg{
+    width: 100%;
+}
+
+.rightframes{
+    height: 100%;
+    width: 100%;
+    border: none;
+}

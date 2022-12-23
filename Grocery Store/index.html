@@ -1,0 +1,143 @@
+<!-- This is the index page -->
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<title>On-line Grocery Store</title>
+<meta charset="UFT-8"> <!-- Define the character set used -->
+<meta name="descrption" content="Assignment 1"><!--   Define description of website -->
+<meta name="keywords" content="Online grocery Store"><!--  Define Keyword for search engines -->
+<meta name="author" content="Mufeng Niu"><!-- Define the author of the page -->
+<link rel="stylesheet" href="css/mystyle.css">
+</head>
+
+<body>
+
+<div class="leftside">    <!-- The left side showing the hierarchical images of the products using imgmap -->
+
+    <img src="img/default.png" id="defaultimg" alt="Defaultimg" usemap="#grocery" onmousemove="showCoords(event)">
+    <map name="grocery">
+    <area shape="rect" coords="68,202,218,255" onmouseover="showfrozen()">
+    <area shape="rect" coords="239,202,388,255" onmouseover="showfesh()">
+    <area shape="rect" coords="422,202,573,255" onmouseover="showbeverage()">
+    <area shape="rect" coords="610,202,759,255" onmouseover="showhome()">
+    <area shape="rect" coords="798,202,950,255" onmouseover="showpet()"> 
+    </map>
+
+    <div id="frozen" style="display: none;">
+        <img src="img/frozen food.png" class="subimg" alt="Frozenfood" usemap="#frozenimg" onmousemove="showCoords(event)">
+        <map name="frozenimg">
+            <area shape="rect" coords="15,99,132,142" target="addorder" href="php/topright.php?product_id=1002">
+            <area shape="rect" coords="36,212,160,263" target="addorder" href="php/topright.php?product_id=1000">
+            <area shape="rect" coords="254,212,375,263" target="addorder" href="php/topright.php?product_id=1001">
+            <area shape="rect" coords="290,99,412,142" target="addorder" href="php/topright.php?product_id=1003">
+            <area shape="rect" coords="432,212,553,263" target="addorder" href="php/topright.php?product_id=1004">
+            <area shape="rect" coords="594,212,715,263" target="addorder" href="php/topright.php?product_id=1005">
+        </map>
+    </div>
+
+    <div id="fresh" style="display: none;">
+        <img src="img/fresh food.png" class="subimg" alt="Freshfood" usemap="#freshimg" onmousemove="showCoords(event)">
+        <map name="freshimg">
+            <area shape="rect" coords="17,92,136,144" target="addorder" href="php/topright.php?product_id=3002">
+            <area shape="rect" coords="42,212,165,262" target="addorder" href="php/topright.php?product_id=3000">
+            <area shape="rect" coords="263,212,383,262" target="addorder" href="php/topright.php?product_id=3001">
+            <area shape="rect" coords="295,92,414,144" target="addorder" href="php/topright.php?product_id=3003">
+            <area shape="rect" coords="435,92,558,144" target="addorder" href="php/topright.php?product_id=3004">
+            <area shape="rect" coords="581,92,705,144" target="addorder" href="php/topright.php?product_id=3006">
+            <area shape="rect" coords="730,92,852,144" target="addorder" href="php/topright.php?product_id=3007">
+            <area shape="rect" coords="878,92,1001,144" target="addorder" href="php/topright.php?product_id=3005">
+        </map>
+    </div>
+
+    <div id="beverage" style="display: none;">
+        <img src="img/Beverages.png" class="subimg"  alt="Beverages" usemap="#beverageimg" onmousemove="showCoords(event)">
+        <map name="beverageimg">
+            <area shape="rect" coords="77,201,199,253" target="addorder" href="php/topright.php?product_id=4003">
+            <area shape="rect" coords="226,201,351,253" target="addorder" href="php/topright.php?product_id=4004">
+            <area shape="rect" coords="366,201,490,253" target="addorder" href="php/topright.php?product_id=4000">
+            <area shape="rect" coords="511,201,630,253" target="addorder" href="php/topright.php?product_id=4001">
+            <area shape="rect" coords="659,201,781,253" target="addorder" href="php/topright.php?product_id=4002">
+            <area shape="rect" coords="704,92,827,140" target="addorder" href="php/topright.php?product_id=4005">
+        </map>
+    </div>
+
+    <div id="home" style="display: none;">
+        <img src="img/Home Health.png" class="subimg" alt="Home Health" usemap="#homeimg" onmousemove="showCoords(event)">
+        <map name="homeimg">
+            <area shape="rect" coords="269,89,389,138" target="addorder" href="php/topright.php?product_id=2002">
+            <area shape="rect" coords="344,214,466,265" target="addorder" href="php/topright.php?product_id=2000">
+            <area shape="rect" coords="502,214,624,265" target="addorder" href="php/topright.php?product_id=2001">
+            <area shape="rect" coords="567,90,684,139" target="addorder" href="php/topright.php?product_id=2005">
+            <area shape="rect" coords="647,214,766,265" target="addorder" href="php/topright.php?product_id=2003">
+            <area shape="rect" coords="778,214,902,265" target="addorder" href="php/topright.php?product_id=2004">
+            <area shape="rect" coords="859,90,978,138" target="addorder" href="php/topright.php?product_id=2006">
+        </map>
+    </div>
+
+    <div id="pet" style="display: none;">
+        <img src="img/pet food.png" class="subimg"  alt="Pet Food" usemap="#petimg" onmousemove="showCoords(event)">
+        <map name="petimg">
+            <area shape="rect" coords="405,90,525,140" target="addorder" href="php/topright.php?product_id=5002">
+            <area shape="rect" coords="567,90,685,140" target="addorder" href="php/topright.php?product_id=5003">
+            <area shape="rect" coords="643,201,765,255" target="addorder" href="php/topright.php?product_id=5001">
+            <area shape="rect" coords="822,201,972,255" target="addorder" href="php/topright.php?product_id=5000">
+            <area shape="rect" coords="879,90,1001,140" target="addorder" href="php/topright.php?product_id=5004">
+        </map>
+    </div>
+       
+</div>
+ 
+<div class="rightside"> 
+    <div class="topright">  <!--The topright side shows the product details and checkout form-->
+        <iframe src="php/topright.php" name="addorder" class="rightframes" id="frame1"></iframe>
+    </div>
+
+    <div class="botright"> <!--The botright side shows the shopping cart-->
+        <iframe src="php/botright.php" name="checkout" class="rightframes" id="frame2"></iframe>
+    </div>
+</div>
+
+<script>
+
+/*used to measure the coords of the Image
+function showCoords(event) {  
+    var x = event.clientX;
+    var y = event.clientY;
+    var coords = "X coords: " + x + ", Y coords: " + y;
+    document.getElementById("demo").innerHTML = coords;
+}*/ 
+
+// show category after hiding other subimages
+function showfrozen(){
+    hideimg();
+    subImageObj = document.getElementById("frozen").style.display = "flex"; 
+}
+function showfesh(){
+    hideimg();
+    subImageObj = document.getElementById("fresh").style.display = "flex"; 
+}
+function showbeverage(){
+    hideimg();
+    subImageObj = document.getElementById("beverage").style.display = "flex"; 
+}
+function showhome(){
+    hideimg();
+    subImageObj = document.getElementById("home").style.display = "flex";  
+}
+function showpet(){
+    hideimg();
+    document.getElementById("pet").style.display = "flex";  
+}
+
+// hide all sub images
+function hideimg(){
+    document.getElementById("frozen").style.display="none";
+    document.getElementById("fresh").style.display="none";
+    document.getElementById("beverage").style.display="none";
+    document.getElementById("home").style.display="none";
+    document.getElementById("pet").style.display="none";
+}
+
+</script>
+</body>
+</html>
