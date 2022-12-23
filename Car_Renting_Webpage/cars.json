@@ -1,0 +1,125 @@
+{
+    "car":[
+       {
+        "Category":"Sedan",
+        "Availability":true,
+        "Brand":"BMW",
+        "Model":"320i",
+        "Model_year":2016,
+        "Mileage":16000,
+        "Fuel_type":"Petrol & Diesel",
+        "Seats":5,
+        "Price_per_day":260,
+        "Description": "The BMW 3 Series is a line of compact executive cars manufactured by the German automaker BMW since May 1975."
+       },
+       {
+        "Category":"Sedan",
+        "Availability":false,
+        "Brand":"Toyota",
+        "Model":"Camry",
+        "Model_year":2018,
+        "Mileage":8500,
+        "Fuel_type": "Petrol",
+        "Seats":5,
+        "Price_per_day":120,
+        "Description": "The Camry has a striking look of athleticism, a stance and poise that tells you it is ready to be driven"
+    },
+    {
+        "Category":"SUV",
+        "Availability":true,
+        "Brand":"Holden",
+        "Model":"Captiva",
+        "Model_year":2019,
+        "Mileage":23000,
+        "Fuel_type":"Diesel",
+        "Seats":5,
+        "Price_per_day":180,
+        "Description":"Sourced from South Korea, a five-seater medium-sized version"
+    },
+    {
+        "Category":"SUV",
+        "Availability":true,
+        "Brand":"Jeep",
+        "Model":"Cherokee",
+        "Model_year":2019,
+        "Mileage":78000,
+        "Fuel_type":"Petrol",
+        "Seats":5,
+        "Price_per_day":200,
+        "Description":"Jeep's mid-sized five-door, five seat Cherokee is unashamedly unusual in the looks department, and it doesn't care one bit."
+    },
+    {
+        "Category":"Sedan",
+        "Availability":true,
+        "Brand":"Honda",
+        "Model":"Civic",
+        "Model_year":2020,
+        "Mileage":8000,
+        "Fuel_type":"Petrol",
+        "Seats":5,
+        "Price_per_day":80,
+        "Description":"The Honda Civic is one of the world's best known and most loved cars, with more than 19 million sold its launch in its home country of Japan in 1972."
+    },
+    {
+        "Category":"SUV",
+        "Availability":true,
+        "Brand":"Mercedes",
+        "Model":"GLC",
+        "Model_year":2020,
+        "Mileage":78000,
+        "Fuel_type":"Hybrid",
+        "Seats":5,
+        "Price_per_day":270,
+        "Description":"The GLC is an all-wheel drive 4 door with 5 seats, powered by a 2.0L TURBO 4 engine that has 190 kW of power (at 5800 rpm) and 370 Nm of torque (at 4000 rpm)"
+    },
+    {
+        "Category":"Hatch",
+        "Availability":false,
+        "Brand":"Volkswagen",
+        "Model":"Golf",
+        "Model_year":2020,
+        "Mileage":8000,
+        "Fuel_type":"Diesel",
+        "Seats":5,
+        "Price_per_day":90,
+        "Description":"Few cars have had the impact of the Volkswagen Golf. With worldwide sales in excess of 30 million, it's fair to say that VW's small-sized hatch is a pretty big deal."
+    },
+    {
+        "Category":"SUV",
+        "Availability":true,
+        "Brand":"Suzuki",
+        "Model":"Jimny",
+        "Model_year":2011,
+        "Mileage":10500,
+        "Fuel_type":"Petrol",
+        "Seats":5,
+        "Price_per_day":190,
+        "Description":"The Suzuki Jimny represents the continuation of a little 4x4 legend that's been punching above its weight for five decades."
+    },
+    {
+        "Category":"Sedan",
+        "Availability":true,
+        "Brand":"Hyundai",
+        "Model":"Sonata",
+        "Model_year":2006,
+        "Mileage":59000,
+        "Fuel_type":"Petrol",
+        "Seats":5,
+        "Price_per_day":105,
+        "Description":"The Sonata scored a fresh design when it was last updated on November 2017. This brought an 8.0-inch multimedia screen with CarPlay."
+    },
+    {
+        "Category":"SUV",
+        "Availability":false,
+        "Brand":"Nissan",
+        "Model":"Xtrail",
+        "Model_year":2011,
+        "Mileage":96000,
+        "Fuel_type":"Petrol & Diesel",
+        "Seats":7,
+        "Price_per_day":125,
+        "Description":"The Nissan X-Trail is a mid-sized SUV, which is offered in both five and seven-seat variants."
+    }
+
+    ]
+}

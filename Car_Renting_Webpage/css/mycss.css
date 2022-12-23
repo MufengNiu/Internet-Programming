@@ -1,0 +1,146 @@
+.header{
+    text-align: center;
+    background-color: #f5f3d0;
+    height: 70px;
+}
+
+#logo{
+    float: left;
+}
+
+#logpic{
+    height: 60px;
+    width: 200px;
+}
+
+#label{
+    font-size: 40px;
+    font-style: italic;
+    display: inline;
+}
+
+#cart{
+    float: right;
+}
+
+.cartbutton {
+  align-items: center;
+  background-color: #1C84FF;
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 100%;
+  line-height: 1.15;
+  padding: 10px 21px;
+}
+
+.cartbutton:hover {
+  background-color: greenyellow;
+}
+
+.car_img{
+  height: 300px;
+  width: 420px;
+}
+
+.car_display{
+  height:720px;
+  width:420px;
+  text-align: center;
+  float: left;
+  cursor: default;
+  align-items: center;
+  border: 2px solid #f5f3d0;
+  background-color: rgb(248, 248, 248);
+}
+
+.car_display:hover{
+  background-color: orange;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add_button {
+  background-color: #1C84FF;
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 0;
+  padding: 10px 12px;
+  width: 40%;
+}
+
+.add_button:hover{
+   background-color: greenyellow;
+}
+
+.car_info_desc{
+  text-align: justify;
+  position:relative;
+  left:15px;
+  top:10px;
+  width: 380px;
+  height: 360px;
+}
+
+#title{
+  text-align: center;
+  font-size: x-large;
+  position: relative;
+  top: 10px;
+}
+
+#shopping_cart{
+  position: relative;
+  left: 12%;
+  background-color: rgb(248, 248, 248);
+  width:1260px;
+  height: 720px;
+  align-self: center;
+  overflow: auto;
+}
+
+#cart_button{
+  position: relative;
+  left: 12%;
+  background-color: rgb(248, 248, 248);
+  width:1260px;
+  height: 52px;
+  align-self: center;
+}
+
+#clear_but{
+  float: left;
+}
+
+#payment_but{
+  float: right;
+}
+.cart_img{
+  height: 180px;
+  width: 260px;
+}
+
+td,th{
+  text-align: center;
+}
+
+.remove_but {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  color: white;
+  text-align: center;
+  padding: 12px 14px;
+  cursor: pointer;
+}
+

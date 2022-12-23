@@ -1,0 +1,97 @@
+<html>
+<head>
+
+<title>Hertz-UTS Car Renting</title>
+<meta charset="UFT-8"> 
+<meta name="descrption" content="Assignment 2">
+<meta name="keywords" content="Online car renting website">
+<meta name="author" content="Mufeng Niu">
+<link rel="stylesheet" href="css/mycss.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+</head>
+
+<body>
+    <div class="header">
+        <div id="logo"><a href="index.html" target="_self"><img id="logpic" src="img/logo.png"></a></div>
+    
+        <div id="label">Car Rental Center</div>
+    
+        <div id="cart"> <a href="cart.php" target="_self" style="text-decoration: none"><button class="cartbutton" role="button">Car Reservation</button></a></div>
+    </div>
+
+    <div class="main_frame">
+
+        <div class="row">
+            <div class="car_display">
+                <img src="img/320i.png" class="car_img">
+                <div id="description_1" class="car_info_desc"></div>
+                <div class="but"><button class="add_button" role="button" onclick="addCart(0)">Add to Cart</button></div>
+            </div>
+            
+            <div class="car_display">
+                <img src="img/Camry.png" class="car_img">
+                <div id="description_2" class="car_info_desc"></div>
+                <div class="but"><button class="add_button" role="button" onclick="addCart(1)">Add to Cart</button></div>
+            </div>
+            
+            <div class="car_display">
+                <img src="img/Captiva.png" class="car_img">
+                <div id="description_3" class="car_info_desc"></div>
+                <div class="but"><button class="add_button" role="button" onclick="addCart(2)">Add to Cart</button></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="car_display">
+                <img src="img/Cherokee.png" class="car_img">
+                <div id="description_4" class="car_info_desc"></div>
+                <div class="but"><button class="add_button" role="button" onclick="addCart(3)">Add to Cart</button></div>
+            </div>
+
+            <div class="car_display">
+                <img src="img/Civic.png" class="car_img">
+                <div id="description_5" class="car_info_desc"></div>
+                <div class="but"><button class="add_button" role="button" onclick="addCart(4)">Add to Cart</button></div>
+            </div>
+            
+            <div class="car_display">
+                <img src="img/GLC.png" class="car_img">
+                <div id="description_6" class="car_info_desc"></div>
+                <div class="but"><button class="add_button" role="button" onclick="addCart(5)">Add to Cart</button></div>
+            </div>
+        </div>
+            
+        <div class="row">
+            <div class="car_display">
+                <img src="img/Golf.png" class="car_img">
+                <div id="description_7" class="car_info_desc"></div>
+                <div class="but"><button class="add_button" role="button" onclick="addCart(6)">Add to Cart</button></div>
+            </div>
+            
+            <div class="car_display">
+                <img src="img/Jimny.png" class="car_img">
+                <div id="description_8" class="car_info_desc"></div>
+                <div class="but"><button class="add_button" role="button" onclick="addCart(7)">Add to Cart</button></div>
+            </div>
+
+            <div class="car_display">
+                <img src="img/Sonata.png" class="car_img">
+                <div id="description_9" class="car_info_desc"></div>
+                <div class="but"><button class="add_button" role="button" onclick="addCart(8)">Add to Cart</button></div>
+            </div>
+        </div>
+            
+        <div class="row">
+            <div class="car_display">
+                <img src="img/Xtrail.png" class="car_img">
+                <div id="description_10" class="car_info_desc"></div>
+                <div class="but"><button class="add_button" role="button" onclick="addCart(9)">Add to Cart</button></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="car_rent.js"></script>
+</body>
+</html>
